@@ -95,6 +95,7 @@ body{background-color:#D6EDFF;}
           right:5%;
 }
 .links a{color:#000;text-decoration:none;}
+ .textOne a{color:#000;text-decoration:none;}
 .textOne{
          width:40%;
         font-size:70px;
@@ -294,12 +295,12 @@ body{background-color:#D6EDFF;}
                color:transparent;
 }
  .menu-icon{
-            height:20px;
-            width:20px;
+            height:40px;
+            width:40px;
             background-image:url(leaf.png);
             background-color:blue;
             position:fixed;
-            top:10%;left:80%;
+            top:10%;right:20%;
             display:none;
  }
  #menu-content{
@@ -314,12 +315,13 @@ body{background-color:#D6EDFF;}
  #menu-content:target{display:block;}
              
 @media screen and (max-width:700px){
-  .handw{font-size:20px;}
- .textOne{width:90%;font-size:50px;left:5%;top:15%;}
+  .handw{font-size:20px;display:inline-block;margin-bottom:15px;}
+ .vibe{z-index:-1;top:12%;}
+ .textOne{width:90%;font-size:50px;left:5%;top:12%;}
  .small{margin-top:20px;}
- .card{top:150%;left:20%;} 
- .card2{top:130%;left:25%;}
- .button{line-height:75px;margin-top:30px;}
+ .card{top:90%;left:20%;} 
+ .card2{top:112%;left:25%;}
+ .button{line-height:83px;margin-top:30px;}
  .buttonl{line-height:83px;}
  .links{opacity:0;}
  .menu-icon{display:block;}
@@ -452,6 +454,12 @@ body{background-color:#D6EDFF;}
          <div class="img">Image from rawpixel.com</div>   
 </div>
 <a href="#menu-content"><div class="menu-icon"></div></a>
- <div id="menu-content"></div>
+ <div id="menu-content">
+    <div class="textOne">
+         <a href="about.html">About</a>    <a href="https://www.instagram.com/expressdesign102/">MyWorks</a>    
+          <a href="exp.html">MyExperience</a>   <a href="mailto:elleliao58@outlook.com">Contact</a>
+    </div>
+  
+ </div>
 </body>
 </html>
