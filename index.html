@@ -293,14 +293,36 @@ body{background-color:#D6EDFF;}
                left:75%;top:70%;
                color:transparent;
 }
+ .menu-icon{
+            height:20px;
+            width:20px;
+            background-image:url(leaf.png);
+            background-color:blue;
+            position:fixed;
+            top:10%left:80%;
+            display:none;
+ }
+ #menu-content{
+              height:100%;
+            width:100%;
+            
+            background-color:blue;
+            position:fixed;
+            top:0%left:0%;
+            display:none;
+ }
+ #menu-content:target{display:block;}
+             
 @media screen and (max-width:700px){
   .handw{font-size:20px;}
  .textOne{width:90%;font-size:50px;left:5%;top:15%;}
  .small{margin-top:20px;}
- .card{top:100%left:10%;} .card2{display:none;}
+ .card{top:150%left:20%;} 
+ .card2{top:230%;left:25%;}
  .button{line-height:75px;margin-top:30px;}
  .buttonl{line-height:83px;}
  .links{opacity:0;}
+ .menu-icon{display:block;}
 }
 </style>
 </head>
@@ -429,5 +451,7 @@ body{background-color:#D6EDFF;}
          
          <div class="img">Image from rawpixel.com</div>   
 </div>
+<div class="menu-icon"></div>
+ <div class="menu-content"></div>
 </body>
 </html>
