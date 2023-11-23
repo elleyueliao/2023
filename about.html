@@ -104,7 +104,32 @@ body{background-color:#D6EDFF;}
        position:absolute;
        top:10%;left:10%;
        animation:no 2s ease;
-}          
+}   
+ .menu-icon{
+            height:40px;
+            width:40px;
+            background-image:url(leaf.png);
+            background-size:100%;
+            position:fixed;
+            top:3%;right:5%;
+            display:none;
+ }
+ #menu-content{
+            height:100%;
+            width:100%;
+            background-color:#D6EDFF;
+            position:fixed;
+            top:0%left:0%;
+            display:none;
+ }
+ #menu-content:target{display:block;}
+ #menu-content .textOne{top:30%;}
+             
+@media screen and (max-width:700px){
+.textOne-title{font-size:60px;}
+.links{display:none;}
+  .smallp{font-size:15px;display:inline-block;margin-bottom:20px;}
+}
 </style>
 </head>
 <body>
