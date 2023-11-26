@@ -250,6 +250,7 @@ body{background-color:#D6EDFF;}
                  position:absolute;
                  top:15%;left:10%;
                 transition:height 1s;
+                -webkit-transition:height 1s;
 }
 .textblock .hide{display:none;opacity:0;transition:opacity 1s;}
 .light .buttonl{
@@ -260,9 +261,9 @@ body{background-color:#D6EDFF;}
 
 .textblock:hover .hide{display:block;opacity:1;}
 .textblock:hover{height:500px;z-index:2;}
-.two .textblock:hover{transform:rotate(0deg);animation:rotate 1s ease;}
+.two .textblock:hover{-webkit-transform:rotate(0deg);transform:rotate(0deg);animation:rotate 1s ease;}
 
-.two .textblock{transform:rotate(12deg);top:35%;background-color:#5ABE6A}     
+.two .textblock{-webkit-transform:rotate(12deg);transform:rotate(12deg);top:35%;background-color:#5ABE6A}     
 .three .textblock{top:55%;background-color:#D6EDFF;border:1px dotted black;color:#5ABE6A;} 
 
 .textcard{ 
