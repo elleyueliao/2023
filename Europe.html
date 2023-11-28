@@ -78,6 +78,37 @@ body{background-color:#D6EDFF;}
              color:#000;
              margin-top:20px;
 }
+
+ .menu-icon{
+            height:40px;
+            width:40px;
+            background-image:url(leaf.png);
+            background-size:100%;
+            position:fixed;
+            top:3%;right:5%;
+            display:none;
+ }
+ #menu-content{
+            height:100%;
+            width:100%;
+            background-color:#D6EDFF;
+            position:fixed;
+            top:0%left:0%;
+            display:none;
+ }
+ #menu-content:target{display:block;}
+ #menu-content .textOne{top:30%;}
+.textOne a{color:#000;text-decoration:none;}
+.textOne a:hover{color:#5ABE6A;}
+             
+@media screen and (max-width:700px){
+.menu-icon{display:block;}
+.textOne{font-size:40px}
+.textOne-title{font-size:60px;}
+.links{display:none;}
+  .smallp{font-size:15px;display:inline-block;margin-bottom:35px;}
+  
+}   
           
 </style>
 </head>
@@ -94,5 +125,15 @@ body{background-color:#D6EDFF;}
          Spain, Denmark, Iceland
 
 </div>
+
+<a href="#menu-content"><div class="menu-icon"></div></a>
+ <div id="menu-content">
+    <div class="textOne">
+         <a href="about.html">About</a><br>    <a href="https://www.instagram.com/expressdesign102/">MyWorks</a><br>    
+          <a href="exp.html">MyExperience</a><br>   <a href="mailto:elleliao58@outlook.com">Contact</a><br>
+          <span class="green"><a href="#">Back</a></span>
+    </div>
+  
+ </div>
 </body>
 </html>
