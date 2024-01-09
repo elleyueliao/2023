@@ -33,7 +33,7 @@ html {
 }
 
 
-body{background-color:#D6EDFF;}
+body{background-color:#D6ED33;}
 .head{
          
          height:130%;width:100%;
@@ -84,7 +84,15 @@ body{background-color:#D6EDFF;}
           font-family: 'Katibeh', cursive;
           position:absolute;
           top:3%;
-          left:5%;
+          left:10%;
+}
+ .icon{
+         height:90px;width:90px;
+         background-image:url(leaf.png);
+         background-size:100%;background-repeat:no-repeat;
+         position:absolute;
+         top:3%;left:5%;
+         animation:none 1s ease;
 }
 .links {
           font-size:15px;
@@ -202,6 +210,8 @@ body{background-color:#D6EDFF;}
          animation:none 1s ease;
 }
 .deco:hover{animation:rotate 1s ease;}
+ .A .deco{background-image:url(deco/decoA.svg);top:20%;left:65%;}
+ .B .deco{background-image:url(deco/decoB.svg);top:60%;left:35%;}
 .two .deco{background-image:url(deco/deco2.svg);top:10%;left:10%;}
 .three .deco{background-image:url(deco/deco3.svg);top:80%;left:45%;}
 .four .deco{height:50px;width:50px;background-image:url(deco/decoFour.svg);top:7%;left:49%;}
@@ -386,6 +396,7 @@ body{background-color:#D6EDFF;}
 </head>
 <body>
 <div class="head">
+        <div class="icon"></div>
        <div class="title">Elle Liao</div>
        <div class="links"><a href="about.html">About</a>    <a href="https://www.instagram.com/expressdesign102/">MyWorks</a>    <a href="exp.html">MyExperience</a>   <a href="mailto:elleliao58@outlook.com">Contact</a></div>        
        <div class="textOne"><span class="handw">Hi there</span><br>
@@ -396,6 +407,8 @@ body{background-color:#D6EDFF;}
                                
       </div>
       <div class="vibe"></div>
+      <div class="A"><div class="deco"></div></div>
+      <div class="B"><div class="deco"></div></div>
       <a href="music.html"><div class="card"></div></a><div class="card2"></div>
 </div>
 <div class="partOne" id="partOne">
