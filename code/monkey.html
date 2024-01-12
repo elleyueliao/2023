@@ -232,6 +232,30 @@ img{border-radius:15px;display:inline-block;margin-top:20px;}
        color:transparent;
 }
 
+  .textOne a{color:#000;text-decoration:none;}
+ .menu-icon{
+            height:40px;
+            width:40px;
+            background-image:url(leaf.png);
+            background-size:100%;
+            position:fixed;
+            display:none;
+            top:3%;right:5%;
+            
+ }
+ #menu-content{
+            height:100%;
+            width:100%;
+            background-color:#D6EDFF;
+            position:fixed;
+            top:0%left:0%;
+            display:none;
+            z-index:3;
+ }
+ #menu-content:target{display:block;}
+ #menu-content .textOne{top:30%;}
+
+
 @media screen and (max-width:700px){
  /*this head*/
   
@@ -346,6 +370,18 @@ img{border-radius:15px;display:inline-block;margin-top:20px;}
          </div></div>  
          <div class="footer-img">Image from rawpixel.com</div>   
 </div>
+
+
+<a href="#menu-content"><div class="menu-icon"></div></a>
+ <div id="menu-content">
+    <div class="textOne">
+         <a href="/2023/about.html">About</a><br>    <a href="https://www.instagram.com/expressdesign102/">MyWorks</a><br>    
+          <a href="/2023/exp.html">MyExperience</a><br>   <a href="mailto:elleliao58@outlook.com">Contact</a><br>
+          <span class="green"><a href="#">Back</a></span>
+    </div>
+  
+ </div>
+
     
 
 </body>
