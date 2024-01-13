@@ -196,6 +196,77 @@ img{border-radius:15px;display:inline-block;margin-top:20px;}
        top:70%;left:75%;
        color:transparent;
 }
+.menu-icon{
+            height:40px;
+            width:40px;
+            background-image:url(leaf-light.png);
+            background-size:100%;
+            position:fixed;
+            display:none;
+            top:3%;right:5%;
+            
+ }
+ #menu-content{
+            height:100%;
+            width:100%;
+            background-color:#D6EDFF;
+            position:fixed;
+            top:0%left:0%;
+            display:none;
+            z-index:3;
+ }
+ #menu-content:target{display:block;}
+ #menu-content .textOne{top:30%;}
+
+
+@media screen and (max-width:700px){
+ /*this head*/
+  
+ .handw{font-size:30px;display:inline-block;margin-bottom:35px;}
+ .vibe{z-index:-1;top:12%;}
+ .textOne{width:90%;font-size:60px;left:5%;top:22%;}
+ .small{margin-top:20px;}
+ .card{top:75%;left:23%;} 
+ .card2{top:107%;left:23%;border:1px dashed #000}
+ .button{line-height:83px;margin-top:30px;}
+ .buttonl{line-height:83px;}
+ .links{opacity:0;}
+ .menu-icon{display:block;z-index:3;}
+  .head .slide1,.head .slide2,.head .slide3{top:90%;left:5%;height:420px;width:90%;}
+  .head .smallp{font-size:20px;}
+
+  /*general image setting*/
+  img{margin-top:50px;}
+
+  /*this is partOne*/
+  .partOne{top:160%;}
+  .partOne img{width:100%;}
+  .partOne .textOne{width:90%;}
+  .textOne .smallp{font-size:15px;}
+
+   
+
+
+
+ /*this partTwo*/
+ .partTwo{top:545%;}
+  .partTwo .handw{color:#5ABE6A;}
+ .partTwo .textOne{top:10%;left:5%}
+ .footer{top:55%;}
+ .two .footer{top:55%;left:45%;}
+ .partTwo .deco{top:75%;z-index:-1;}
+ .partTwo .vibeS{display:none;}
+ 
+ 
+ .partTwo .footer-img{left:5%;top:75%;z-index:-1;}
+
+/*the hidden selector*/
+  .selector{display:none;}
+  
+  .head .smallp{font-size:20px;}
+  .partTwo .smallp{font-size:20px;}
+}
+
 
 </style>
 </head>
@@ -258,7 +329,16 @@ img{border-radius:15px;display:inline-block;margin-top:20px;}
          </div></div>  
          <div class="footer-img">Image from rawpixel.com</div>   
 </div>
-    
+
+<a href="#menu-content"><div class="menu-icon"></div></a>
+ <div id="menu-content">
+    <div class="textOne">
+         <a href="/2023/about.html">About</a><br>    <a href="https://www.instagram.com/expressdesign102/">MyWorks</a><br>    
+          <a href="/2023/exp.html">MyExperience</a><br>   <a href="mailto:elleliao58@outlook.com">Contact</a><br>
+          <span class="green"><a href="#">Back</a></span>
+    </div>
+  
+ </div>
 
 </body>
 </html>
