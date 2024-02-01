@@ -10,6 +10,8 @@
 
 
 <style>
+
+ 
  @keyframes moveup {
   0% {
     transform: translateY(0%);
@@ -217,8 +219,10 @@ body{background-color:#D6EDFF;}
          height:150px;width:90px;
          background-image:url(deco/decoC.svg);
          background-size:100%;background-repeat:no-repeat;
+         -webkit-transform: scaleX(-1);
+         transform: scaleX(-1)
          position:fixed;
-         top:65%;right:0%;
+         top:65%;right:12%;
          animation:none 1s ease;
 }
 .two .deco{background-image:url(deco/deco2.svg);top:10%;left:10%;}
