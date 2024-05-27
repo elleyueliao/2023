@@ -52,7 +52,7 @@ body{background-color:#D6EDFF;}
               height:110%;
               width:100%;
               position:absolute;
-              top:490%;
+              top:510%;
               left:0;
 }
 .title {
@@ -81,8 +81,8 @@ body{background-color:#D6EDFF;}
 }
 .left .textOne{top:5%;left:15%;}
 
-.aboutleft .textOne{width:35%;text-align:left;top:35%;left:12%;}
-.aboutright .textOne{width:35%;text-align:left;top:85%;left:55%;}
+.aboutleft .textOne{width:35%;text-align:left;top:40%;left:12%;}
+.aboutright .textOne{width:35%;text-align:left;top:100%;left:55%;}
 
 
 .handw{font-size:30px;color:#5ABE6A;font-family: 'Homemade Apple', cursive;line-height:15px;}
@@ -101,32 +101,6 @@ body{background-color:#D6EDFF;}
              color:#D6EDFF;
              margin-top:40px;
 }
-.buttonlB{
-             height:60px;
-             width:150px;
-             border:1px dashed #D6EDFF;
-             border-radius:20px;
-             background-color:;
-             display:inline-block;
-             font-size:29px;
-             line-height:55px;
-             color:#D6EDFF;
-             margin-top:20px;
-}
-.buttonl{
-             height:60px;
-             width:150px;
-             border:1px dashed #000;
-             border-radius:20px;
-             background-color:;
-             display:inline-block;
-             font-size:29px;
-             line-height:55px;
-             color:#000;
-             margin-top:20px;
-}
-          
-/*hidden*/
 .vibe{
          height:20px;width:20px;
          border-radius:100%;
@@ -136,7 +110,7 @@ body{background-color:#D6EDFF;}
         animation:up 2s ease;
         display:none;
 }
-/*hidden*/
+
 .linetext{
          width:90%;
         font-size:150px;
@@ -153,36 +127,49 @@ body{background-color:#D6EDFF;}
          height:23%;
          width:16%;
          border-radius:25px;
-         background-color:#5ABE6A;
+         background-image:url(sticker/hug.gif);
+           background-size:100%;
+           background-repeat:no-repeat;
          position:absolute;
          top:39%;left:15%;
          }
 .card:hover .img{display:block;animation:appear 1s ease;}
 
-.card2 .card{background-color:#2C684B;top:39%;left:33%;}
+.card2 .card{background-image:url(sticker/hello.gif);top:39%;left:33%;}
 
-.card3 .card{background-color:#FF8B49;left:51%;}
-.card4 .card{background-color:#BE8B5C;left:69%;}
-.card5 .card{background-color:#FF8B49;top:70%;}
-.card6 .card{background-color:#BE8B5C;top:70%;left:33%;}
-.card7 .card{background-color:#2C684B;top:70%;left:51%;}
-.card8 .card{background-color:#5ABE6A;top:70%;left:69%;}
+.card3 .card{background-image:url(sticker/FlyWithMe.gif);left:51%;}
+.card4 .card{background-image:url(sticker/WellDone.gif);left:69%;}
+.card5 .card{background-image:url(sticker/shy.gif);top:70%;}
+.card6 .card{background-image:url(sticker/WhoKnows.gif);top:70%;left:33%;}
+.card7 .card{background-image:url(sticker/EatDrink.gif);top:70%;left:51%;}
+.card8 .card{background-image:url(sticker/phoneAddicted.gif);top:70%;left:69%;}
 
-.pink .card{height:35%;width:40%;background-color:#EFB3B3;top:35%;left:52%;}
-.draw .card{height:35%;width:40%;background-color:#5ABE6A;top:80%;left:12%;}
+.pink .card{height:35%;width:40%;background-image:url(sticker/AboutGif.png);top:40%;left:52%;}
+.draw .card{height:35%;width:40%;background-image:url(sticker/drawing.jpeg);top:90%;left:12%;}
 
 
 
 
 
 .QR{
-         height:45%;
-         width:32%;
+         height:35%;
+         width:25%;
          border-radius:25px;
          background-color:#5ABE6A;
          position:absolute;
          top:41%;left:50%;
          }
+.QRContent{
+         height:53%;
+         width:50%;
+         border-radius:10px;
+         background-image:url(sticker/QR.jpeg);
+           background-size:100%;
+           background-repeat:no-repeat;
+         position:absolute;
+         top:25%;left:25%;
+         }
+
 
 .reminder{
          height:17%;
@@ -201,33 +188,6 @@ body{background-color:#D6EDFF;}
 
 
 
-
-.img{
-       height:100%;width:100%;
-       background-image:url(london.jpg);
-       border-radius:25px;
-       background-size:100%;background-repeat:no-repeat;
-       position:absolute;
-       top:0%;left:0%;
-       display:none;
-}
-.two .img{background-image:url(travel.jpg)}
-.two .img2{background-image:url(europe.jpg);background-position:0% 90%;}
-
-.img2{
-       height:100%;width:100%;
-       background-image:url(upnorth.jpg);
-       border-radius:25px;
-       background-size:130%;background-repeat:no-repeat;
-       position:absolute;
-       top:0%;left:0%;
-       display:none;
-}
-
-.three .img{background-image:url(teach.jpg);background-size:150%;background-position:50% 0%}
-.three .img2{background-image:url(parcel.jpg)}
-.four .img{background-image:url(wait.jpg);background-position:0% 50%}
-.four .img2{background-image:url(flora.jpg)}
 
 .footer{
             font-size:30px;
@@ -329,6 +289,8 @@ body{background-color:#D6EDFF;}
 
    .footer-img{left:5%;top:75%;z-index:-1;}
 
+
+
 }
 </style>
 </head>
@@ -383,7 +345,9 @@ body{background-color:#D6EDFF;}
                                              
                                
       </div></div>
-      <div class="QR"></div>
+      <div class="QR">
+               <div class="QRContent"></div>
+       </div>
 </div>
 
 <div class="about" id="about">
