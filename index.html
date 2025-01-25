@@ -31,6 +31,13 @@
 100%{transform:rotate(0deg);}
 }
 
+
+@keyframes gift{
+ 0%{top:-20%;opacity:1;}
+ 90%{opacity:1;}
+ 100%{top:120%;opacity:0;}
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -341,6 +348,19 @@ body{background-color:#ffd6cc;}
  }
  #menu-content:target{display:block;}
  #menu-content .textOne{top:20%;}
+
+ /*New year deco*/
+ .gift{
+       height:30px;
+       width:30px;
+       background-image:url(leaf.png);
+       background-size:100%;background-repeat:no-repeat;
+       position:absolute;
+        top: -20%;left:10%;
+       animation:gift 3s infinite;
+ }
+        
+ }
              
 @media screen and (max-width:700px){
  /*this head*/
@@ -560,5 +580,7 @@ body{background-color:#ffd6cc;}
     </div>
   
  </div>
+
+ <div class="gift"></div>
 </body>
 </html>
