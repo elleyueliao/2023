@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background-color:#D6EDFF;}
+
+.random{height:30%;width:80%;border:1px dotted black;border-radius:20px;text-align:center;font-size:30px;position:absolute;top:30%;left:10%;}
+
+button{height:50px;width:200px;border-radius:20px;border:0px solid black;background-color:#D6EDFF;font-size:20px;}
+
+</style>
+</head>
+<body>
+
+<h2>Random number</h2>
+
+<div class = "random">
+
+<p id="demo">Create a random number</p>
+
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = Math.floor(Math.random() * 101)'>Click Me!</button>
+
+</div>
+
+</body>
+</html>
