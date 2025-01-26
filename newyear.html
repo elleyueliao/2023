@@ -38,7 +38,7 @@ body{background-color:#ffd6cc;}
   font-size:70px;
   font-family: 'Katibeh', cursive;
   position:absolute;
-  top:15%;left:10%;
+  top:5%;left:10%;
 }
 
 
@@ -56,10 +56,60 @@ button{
 
 .text{font-size:20px;font-family:Poppins;line-height:25px;display:inline-block;}
 
+ /*New year deco*/
+ .gift{
+       height:90px;
+       width:90px;
+       background-image:url(newyear/fu.png);
+       background-size:100%;background-repeat:no-repeat;
+       position:fixed;
+        top: -20%;left:10%;
+       animation:gift 7s infinite;
+ }
+ .gift2 .gift{
+         height:50px;
+         width:50px;
+         background-image:url(newyear/red.png);
+         left:30%;
+         animation:gift 8s infinite;
+ }
+
+  .gift3 .gift{
+         height:70px;
+         width:70px;
+         background-image:url(newyear/gold.png);
+         left:50%;
+         animation:gift 9s infinite;
+ }
+   .gift4 .gift{
+         height:70px;
+         width:70px;
+         background-image:url(newyear/pao.png);
+         left:70%;
+         animation:gift 7s infinite;
+ }
+   .gift5 .gift{
+         height:50px;
+         width:50px;
+         background-image:url(newyear/red.png);
+         left:85%;
+         animation:gift 9s infinite;
+ }
+ 
+ .gift:hover{
+
+   -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+  
+ }
+
 
 @media screen and (max-width:700px){
 
-.title{left:5%;}
+.title{left:15%;top:3.5%}
 .random{width:90%;font-size:50px;left:5%;top:30%;}
 
 }
